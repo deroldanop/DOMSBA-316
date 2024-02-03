@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // newAmountText.value -= parseFloat(costItem.classList.value);  
         //if(Number(newAmountText.value) > Number(moneyToSpend.value)){
 
-c
+
       })
       //costItem.classList.toggle('completed');
 
