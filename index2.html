@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles2.css">
+  <title>Simple To-Do List</title>
+</head>
+<body>
+  <div id="app">
+    <h1>My Shopping List </h1>
+    <input type="text" id="tospend" pattern= (\d{1,3})?,?(\d{1,3})?(\.\d\d) >
+    <label for="tospend">Money to spend</label>
+    <input type="text" id="amount" >
+      <label for="amount">Amount</label>
+    <ul id="taskList"></ul>
+    <form id="taskForm">
+      <input type="text" id="newTask" placeholder="Add a new task" required>
+      <input type="text" id="newCost" placeholder="Add the cost" pattern= (\d{1,3})?,?(\d{1,3})?(\.\d\d) required >
+      <button type="submit">Add Task</button>
+      
+   <!--   <input type="text" id="amount" >
+      <label for="amount">Amount</label>
+      -->
+    </form>
+  </div>
+
+  <script src="index2.js"></script>
+</body>
+</html>
