@@ -71,5 +71,7 @@ body {
 
   #newTask {
     width: 60%;
-
   }
+  #not-enough-money {
+    color: white;
+}

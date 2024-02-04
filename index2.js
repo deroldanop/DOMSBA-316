@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Cache elements
+    const appBlock = document.getElementById('app');
     const taskList = document.getElementById('taskList');
     const taskForm = document.getElementById('taskForm');
     const newTaskInput = document.querySelector('#newTask');
@@ -38,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
       //const totaltem = document.createElement('input');
 
         console.log(taskItem);
-/////////////////////////////////
+
 
       const costItem = document.createElement('li');
      
@@ -72,6 +73,26 @@ document.addEventListener('DOMContentLoaded', function () {
       taskList.appendChild(taskItem);
       taskList.appendChild(costItem);
     }
+    moneyToSpend.addEventListener('change', function (event) {
+      calculateBalance();
+    });
+  
+    function calculateBalance() {
+      if(Number(newAmountText.value) > Number(moneyToSpend.value)){
+        appBlock.style.backgroundColor = "red";
+        notEnoughMoneyText.style.display = "block";
+      } else {
+        appBlock.style.backgroundColor = "#41dc0d";
+        notEnoughMoneyText.style.display = "none";
+      }
+    }
+
+
+
+
+
+
+
 
 
 
