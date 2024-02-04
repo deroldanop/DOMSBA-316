@@ -1,0 +1,45 @@
+My Shopping List App
+A simple web application for managing your shopping list and budget.
+
+Table of Contents
+Overview
+Features
+Installation
+Usage
+Screenshots
+Technologies Used
+Overview
+"My Shopping List" is a web application designed to help users manage their shopping tasks and expenses. 
+
+Features
+Task Management: Add, and mark tasks.
+Expense Tracking: Keep track of the cost associated with each task.
+Real-time Balance: See your remaining budget as you add or complete tasks.
+Visual Indicators: Completed tasks are visually distinguished for easy identification.
+Responsive Design: The app is designed to work seamlessly on various screen sizes.
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/deroldanop/DOMSBA-316
+Open the project folder:
+bash
+Copy code
+cd shopping-list-app
+Open the index.html file in your web browser.
+Usage
+Enter the amount of money you have to spend.
+Add tasks to your shopping list with associated costs.
+Check off completed tasks to update your remaining budget.
+Receive visual feedback on your spending status.
+Screenshots
+
+Caption for the screenshot.
+
+
+Caption for the second screenshot.
+
+Technologies Used
+HTML5
+CSS3
+JavaScript
