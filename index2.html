@@ -11,7 +11,7 @@
     <h1>My Shopping List </h1>
     <input type="text" id="tospend" pattern= (\d{1,3})?,?(\d{1,3})?(\.\d\d) >
     <label for="tospend">Money to spend</label>
-    <input type="text" id="amount" >
+    <input type="text" id="amount" disabled>
       <label for="amount">Amount</label>
     <ul id="taskList"></ul>
     <form id="taskForm">
@@ -23,6 +23,7 @@
       <label for="amount">Amount</label>
       -->
     </form>
+    <p id="not-enough-money" style="display: none;">You don't have enough money<br>Remove some items from your list.</p>
   </div>
 
   <script src="index2.js"></script>
